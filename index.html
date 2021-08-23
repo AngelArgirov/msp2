@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="assets/css and img/style.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script type="text/javascript">
     (function () {
       // https://dashboard.emailjs.com/admin/integration
@@ -17,13 +17,13 @@
   </script>
   <script type="text/javascript">
     window.onload = function () {
-      document.getElementById('newslatter').addEventListener('submit', function (event) {
+      document.getElementById('emailform').addEventListener('submit', function (event) {
         event.preventDefault();
         // these IDs from the previous steps
         emailjs.sendForm('service_q9bmryy', 'template_vu82alo',  {
-          "from_name": contactForm.firstname.value,
-          "from_email": contactForm.email.value,
-          "submit": contactForm.form.value},this)
+          "from_name": newslatter.firstname.value,
+          "from_email": newslatter.email.value,
+          "submit": newslatter.form.value},this)
           .then(function () {
             console.log('SUCCESS!');
           }, function (error) {
@@ -32,7 +32,6 @@
       });
     }
   </script>
-
 
 </head>
 
@@ -137,40 +136,41 @@
         <div id='map-container'>
         </div>
         <div id='newslatter'>
-          <form onsubmit="return sendMail(this);" method="POST" id="emailform">
-            <input required type='text' name="firstname" id='firstname' placeholder="First Name">
-            <input required type='text' name="email" id='email' placeholder="Email Address">
-            <textarea required name="form" id='form' placeholder="Write To Us"></textarea>
+          <form id="emailform">
+            <input aria-label="name" required type='text' name="firstname" id='firstname' placeholder="First Name">
+            <input aria-label="email" required type='text' name="email" id='email' placeholder="Email Address">
+            <textarea aria-label="text" required name="form" id='form' placeholder="Write To Us"></textarea>
             <div class="button__wrapper">
-              <button type="submit" class="glow-on-hover">Let's Start</button>
+              <button aria-label="Start" type="submit" value="Send" class="glow-on-hover"><a onclick="alert('Thank you !');">Let's
+                  Start</a></button>
             </div>
           </form>
         </div>
       </div>
-    <!-- Footer page -->
-    <footer>
-      <div class="footer__container col-12">
-        <div class="footer__logo"><a id="footer__logo">LET'S CONNECT</a></div>
+      <!-- Footer page -->
+      <footer>
+        <div class="footer__container col-12">
+          <div class="footer__logo"><a id="footer__logo">LET'S CONNECT</a></div>
 
-        <div class="social__icons">
-          <a href="https://www.facebook.com/"><i target="_blank" class="fab fa-facebook"></i></a>
-          <a href="https://instagram.com/"><i target="_blank" class="fab fa-instagram"></i></a>
-          <a href="https://linkedin.com/"><i target="_blank" class="fab fa-linkedin"></i></a>
-          <a href="https://www.twitter.com/"><i target="_blank" class="fab fa-twitter"></i></a>
+          <div class="social__icons">
+            <a href="https://www.facebook.com/"><i target="_blank" class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/"><i target="_blank" class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com/"><i target="_blank" class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitter.com/"><i target="_blank" class="fab fa-twitter"></i></a>
+          </div>
         </div>
-      </div>
 
-    </footer>
-  </div>
-  <script
-    src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-  <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKzS3_M4tyX5YuVTwFqXXWE-dDJeIqhr4&callback=initMap"></script>
-  <!-- jQuery library -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="assets/js files/app.js"></script>
-  <script src="assets/js files/map.js"></script>
+      </footer>
+    </div>
+    <script
+      src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKzS3_M4tyX5YuVTwFqXXWE-dDJeIqhr4&callback=initMap"></script>
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js files/app.js"></script>
+    <script src="assets/js files/map.js"></script>
 </body>
 
 </html>
