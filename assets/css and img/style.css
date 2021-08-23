@@ -379,6 +379,9 @@ background: linear-gradient(to left, #1565C0, #b92b27);
     #newslatter{
       margin-left: -28%;
     }
+    .main__img--container{
+      width: 100%;
+    }
   }
   
   @media only screen and (min-width: 375px) {
@@ -386,12 +389,18 @@ background: linear-gradient(to left, #1565C0, #b92b27);
       margin: -2.5rem;
       margin-top: 0.5rem;
     }
+    .main__img--container{
+      width: 100%;
+    }
   }
   
   @media only screen and (min-width: 414px) {
     #newslatter{
       margin: -2.0rem;
       margin-top: 0.5rem;
+    }
+    .main__img--container{
+      width: 100%;
     }
   }
   
