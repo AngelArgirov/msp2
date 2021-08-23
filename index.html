@@ -20,10 +20,7 @@
       document.getElementById('emailform').addEventListener('submit', function (event) {
         event.preventDefault();
         // these IDs from the previous steps
-        emailjs.sendForm('service_q9bmryy', 'template_vu82alo',  {
-          "from_name": newslatter.firstname.value,
-          "from_email": newslatter.email.value,
-          "submit": newslatter.form.value},this)
+        emailjs.sendForm('service_q9bmryy', 'template_vu82alo', this)
           .then(function () {
             console.log('SUCCESS!');
           }, function (error) {
