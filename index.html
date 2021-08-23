@@ -23,7 +23,7 @@
         emailjs.sendForm('service_q9bmryy', 'template_vu82alo',  {
           "from_name": contactForm.firstname.value,
           "from_email": contactForm.email.value,
-          "Submit": contactForm.form.value},this)
+          "submit": contactForm.form.value},this)
           .then(function () {
             console.log('SUCCESS!');
           }, function (error) {
