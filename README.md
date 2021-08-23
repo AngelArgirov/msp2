@@ -75,11 +75,11 @@ As a Frequent user, I want to sign up to the Newsletter so that I am emailed any
 
 # PHONE WIREFRAMES
 
-![PHONE HOME](https://github.com/AngelArgirov/MILESTONE-PROJECT-2/blob/main/assets/mobile%20wireframes/Screenshot%202021-08-23%20at%2013.21.03.png)
-![PHONE ABOUT](https://github.com/AngelArgirov/MILESTONE-PROJECT-2/blob/main/assets/mobile%20wireframes/Screenshot%202021-08-23%20at%2013.24.30.png?raw=true)
-![PHONE WHY US](https://github.com/AngelArgirov/MILESTONE-PROJECT-2/blob/main/assets/mobile%20wireframes/Screenshot%202021-08-23%20at%2013.28.33.png?raw=true)
-![PHONE CONTACT US](https://github.com/AngelArgirov/MILESTONE-PROJECT-2/blob/main/assets/mobile%20wireframes/Screenshot%202021-08-23%20at%2013.30.56.png?raw=true)
-![PHONE CONTACT US](https://github.com/AngelArgirov/MILESTONE-PROJECT-2/blob/main/assets/mobile%20wireframes/Screenshot%202021-08-23%20at%2013.43.41.png?raw=true)
+![PHONE HOME](https://github.com/AngelArgirov/msp2/blob/main/assets/mobile%20wireframes/Screenshot%202021-08-23%20at%2013.21.03.png)
+![PHONE ABOUT](https://github.com/AngelArgirov/msp2/blob/main/assets/mobile%20wireframes/Screenshot%202021-08-23%20at%2013.24.30.png)
+![PHONE WHY US](https://github.com/AngelArgirov/msp2/blob/main/assets/mobile%20wireframes/Screenshot%202021-08-23%20at%2013.28.33.png)
+![PHONE CONTACT US](https://github.com/AngelArgirov/msp2/blob/main/assets/mobile%20wireframes/Screenshot%202021-08-23%20at%2013.30.56.png)
+![PHONE CONTACT US](https://github.com/AngelArgirov/msp2/blob/main/assets/mobile%20wireframes/Screenshot%202021-08-23%20at%2013.43.41.png)
 
 # DESKTOP WIREFRAMES
 
