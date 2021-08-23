@@ -118,7 +118,7 @@ Testing of form validation will also be required to ensure the correct inputs ar
 
 Validation of inclusion for all features included in the Structure of the Website / Wireframes must be performed.
 
-![TESTING](https://github.com/AngelArgirov/MILESTONE-PROJECT-2/blob/main/assets/testing/Screenshot%202021-08-23%20at%2014.07.44.png?raw=true)
+![TESTING](https://github.com/AngelArgirov/msp2/blob/main/assets/testing/Screenshot%202021-08-23%20at%2014.07.44.png)
 
 
 
