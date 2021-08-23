@@ -22,8 +22,10 @@
         // these IDs from the previous steps
         emailjs.sendForm('service_q9bmryy', 'template_vu82alo', this)
           .then(function () {
+          reset();
             console.log('SUCCESS!');
           }, function (error) {
+          reset();
             console.log('FAILED...', error);
           });
       });
