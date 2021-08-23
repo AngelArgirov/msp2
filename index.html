@@ -8,12 +8,29 @@
   <link rel="stylesheet" href="assets/css and img/style.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-    import { init } from 'emailjs-com';
-    (function () {
-      emailjs.init("user_oizDCglwXCa1EMBPXccnb");
-    });
-  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+        // https://dashboard.emailjs.com/admin/integration
+        emailjs.init('user_oizDCglwXCa1EMBPXccnb');
+    })();
+</script>
+<script type="text/javascript">
+  window.onload = function() {
+      document.getElementById('newslatter').addEventListener('submit', function(event) {
+          event.preventDefault();
+          // generate a five digit number for the contact_number variable
+          this.firstname.value = Math.random() * 100000 | 0;
+          // these IDs from the previous steps
+          emailjs.sendForm('service_q9bmryy', 'template_vu82alo', this)
+              .then(function() {
+                  console.log('SUCCESS!');
+              }, function(error) {
+                  console.log('FAILED...', error);
+              });
+      });
+  }
+</script>
 
 </head>
 
@@ -152,7 +169,6 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="assets/js files/app.js"></script>
   <script src="assets/js files/map.js"></script>
-  <script src="assets/js files/mail.js"></script>
 </body>
 
 </html>
