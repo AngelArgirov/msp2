@@ -83,11 +83,11 @@ As a Frequent user, I want to sign up to the Newsletter so that I am emailed any
 
 # DESKTOP WIREFRAMES
 
-![DESKTOP HOME](https://github.com/AngelArgirov/MILESTONE-PROJECT-2/blob/main/assets/desktop%20wireframes/Screenshot%202021-08-23%20at%2013.13.22.png?raw=true)
-![DESKTOP ABOUT](https://github.com/AngelArgirov/MILESTONE-PROJECT-2/blob/main/assets/desktop%20wireframes/Screenshot%202021-08-23%20at%2013.13.42.png?raw=true)
-![DESKTOP WHY US](https://github.com/AngelArgirov/MILESTONE-PROJECT-2/blob/main/assets/desktop%20wireframes/Screenshot%202021-08-23%20at%2013.14.01.png?raw=true)
-![DESKTOP CONTACT US](https://github.com/AngelArgirov/MILESTONE-PROJECT-2/blob/main/assets/desktop%20wireframes/Screenshot%202021-08-23%20at%2013.14.10.png?raw=true)
-![DESKTOP CONTACT US](https://github.com/AngelArgirov/MILESTONE-PROJECT-2/blob/main/assets/desktop%20wireframes/Screenshot%202021-08-23%20at%2013.14.21.png)
+![DESKTOP HOME](https://github.com/AngelArgirov/msp2/blob/main/assets/desktop%20wireframes/Screenshot%202021-08-23%20at%2013.13.22.png)
+![DESKTOP ABOUT](https://github.com/AngelArgirov/msp2/blob/main/assets/desktop%20wireframes/Screenshot%202021-08-23%20at%2013.13.42.png)
+![DESKTOP WHY US](https://github.com/AngelArgirov/msp2/blob/main/assets/desktop%20wireframes/Screenshot%202021-08-23%20at%2013.14.01.png)
+![DESKTOP CONTACT US](https://github.com/AngelArgirov/msp2/blob/main/assets/desktop%20wireframes/Screenshot%202021-08-23%20at%2013.14.10.png)
+![DESKTOP CONTACT US](https://github.com/AngelArgirov/msp2/blob/main/assets/desktop%20wireframes/Screenshot%202021-08-23%20at%2013.14.21.png)
 
 
                            
