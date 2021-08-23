@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DESIGN AGENCY</title>
+  <link rel="stylesheet" href="assets/css and img/style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    import { init } from 'emailjs-com';
+    (function () {
+      emailjs.init("user_oizDCglwXCa1EMBPXccnb");
+    });
+  </script>
+
+</head>
+
+<body>
+  <div>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">DESIGN</a>
+        <div class="navbar__toggle" id="mobile-menu"><span class="bar"></span> <span class="bar"></span><span
+            class="bar"></span></div>
+        <ul class="navbar__menu">
+          <li class="navbar__item"><a href="#home" class="navbar__links" id="home-page">Home</a></li>
+          <li class="navbar__item"><a href="#about" class="navbar__links" id="about-page">About</a></li>
+          <li class="navbar__item"><a href="#services" class="navbar__links" id="services-page">Why Us</a></li>
+          <li class="navbar__item"><a href="#contact" class="navbar__links" id="features-page">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- main page -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">ARE YOU LOOKING FOR <span>DESIGNERS</span></h1>
+        <button class="main__btn"><a>WELCOME TO
+            US</a></button>
+      </div>
+    </div>
+
+    <!-- About page -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-code"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>ABOUT US</h1>
+          <h2>WE ARE HERE FOR YOUR SATISFACTION</h2>
+          <button onclick="alert('Sorry, I am not available at the moment ! Please try again later !');"
+            class="main__btn"><a>Learn more</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why Us page-->
+    <div class="services col-12" id="services">
+      <h1>WHO WE ARE</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>DESIGN AGENCY</h2>
+          <p>WITH MORE THAN 25 YEARS EXPERIENCE</p>
+          <div><button class="glow-on-hover"
+              onclick="alert('Sorry, I am not available at the moment ! Please try again later !');">EXPERIENCE</button>
+          </div>
+        </div>
+        <div class="services__card">
+          <h2>PROFESSIONALS</h2>
+          <p>FROM ALL AROUND THE WORLD</p>
+          <div><button class="glow-on-hover"
+              onclick="alert('Sorry, I am not available at the moment ! Please try again later !');">OUR TEAM</button>
+          </div>
+        </div>
+        <div class="services__card">
+          <h2>COOPERATING</h2>
+          <p>WITH THE BIGGEST COMPANIES IN THE WORLD</p>
+          <div><button class="glow-on-hover"
+              onclick="alert('Sorry, I am not available at the moment ! Please try again later !');">OUR CV</button>
+          </div>
+        </div>
+        <div class="services__card">
+          <h2>No. 1 </h2>
+          <p>DESIGN AGENCY OF THE YEAR</p>
+          <div><button class="glow-on-hover"
+              onclick="alert('Sorry, I am not available at the moment ! Please try again later !');">AWARDS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Us page -->
+    <div class="main col-12" id="contact">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>CONTACT US</h1>
+          <h2>GET IN TOUCH WITH THE RIGHT PEOPLE</h2>
+          <button class="main__btn"><a
+              onclick="alert('Sorry, I am not available at the moment ! Please try again later !');">Contact
+              Us</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-user-friends"></i>
+          </div>
+
+        </div>
+      </div>
+      <div class="last-heading">
+        <h1>EVEN BETTER COME IN OUR OFFICE</h1>
+      </div>
+      <div class="map-news col-12">
+        <div id='map-container'>
+        </div>
+        <div id='newslatter'>
+          <form onsubmit="return sendMail(this);" method="POST" id="emailform">
+            <input required type='text' name="firstname" id='firstname' placeholder="First Name">
+            <input required type='text' name="email" id='email' placeholder="Email Address">
+            <textarea required name="form" id='form' placeholder="Write To Us"></textarea>
+            <div class="button__wrapper">
+              <button type="submit" class="glow-on-hover">Let's Start</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Footer page -->
+    <footer>
+      <div class="footer__container col-12">
+        <div class="footer__logo"><a id="footer__logo">LET'S CONNECT</a></div>
+
+        <div class="social__icons">
+          <a href="https://www.facebook.com/"><i target="_blank" class="fab fa-facebook"></i></a>
+          <a href="https://instagram.com/"><i target="_blank" class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com/"><i target="_blank" class="fab fa-linkedin"></i></a>
+          <a href="https://www.twitter.com/"><i target="_blank" class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+    </footer>
+  </div>
+  <script
+    src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKzS3_M4tyX5YuVTwFqXXWE-dDJeIqhr4&callback=initMap"></script>
+  <!-- jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="assets/js files/app.js"></script>
+  <script src="assets/js files/map.js"></script>
+  <script src="assets/js files/mail.js"></script>
+</body>
+
+</html>
