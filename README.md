@@ -23,6 +23,8 @@
    # * [DESKTOP WIREFRAMES](https://github.com/AngelArgirov/msp2/blob/main/README.md#desktop-wireframes)
 # 5 [PURPOSE](https://github.com/AngelArgirov/msp2/blob/main/README.md#purpose)
 # 6 [TESTING](https://github.com/AngelArgirov/msp2/blob/main/README.md#testing)
+# 7 [DEPLOYMENT](https://github.com/AngelArgirov/msp2/blob/main/README.md#deployment)
+# 8 [HOW TO RUN THE PROJECT LOCALLY](https://github.com/AngelArgirov/msp2/blob/main/README.md#how-to-run-the-project-locally)
 
 
 
