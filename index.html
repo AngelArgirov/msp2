@@ -15,6 +15,36 @@
       emailjs.init('user_oizDCglwXCa1EMBPXccnb');
     })();
   </script>
+  
+  <script type="text/javascript">
+      function sendMail(contactForm) {
+        emailjs.send("service_q9bmryy", "template_vu82alo", {
+          "Subject": contactForm.form.value,
+          "from_email": contactForm.email.value,
+          "from_name": contactForm.firstname.value
+        })
+          .then(
+            function (response) {
+              console.log("SUCCESS", response);
+            },
+            function (error) {
+              console.log("FAILED", error);
+            }
+          );
+        return false;  // To block from loading a new page
+      }
+    </script>
+
+    <script>
+      function confirm_submit() {
+        return confirm("Are you sure you want to send this message?",)
+          .then(function () {
+            reset();
+            console.log("debug");
+          });
+      }
+    </script>
+
 </head>
 
 <body>
@@ -154,35 +184,7 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="assets/js files/app.js"></script>
     <script src="assets/js files/map.js"></script>
-    <script type="text/javascript">
-      function sendMail(contactForm) {
-        emailjs.send("service_q9bmryy", "template_vu82alo", {
-          "Subject": contactForm.form.value,
-          "from_email": contactForm.email.value,
-          "from_name": contactForm.firstname.value
-        })
-          .then(
-            function (response) {
-              console.log("SUCCESS", response);
-            },
-            function (error) {
-              console.log("FAILED", error);
-            }
-          );
-        return false;  // To block from loading a new page
-      }
-    </script>
-
-    <script>
-      function confirm_submit() {
-        return confirm("Are you sure you want to send this message?",)
-          .then(function () {
-            reset();
-            console.log("debug");
-          });
-      }
-    </script>
-
+    
 </body>
 
 </html>
