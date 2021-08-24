@@ -16,6 +16,12 @@
    * app.js
 
 [UX](https://github.com/AngelArgirov/msp2/blob/main/README.md#ux)
+[RESOURCES](https://github.com/AngelArgirov/msp2/blob/main/README.md#resources)
+[STRUCTURE](https://github.com/AngelArgirov/msp2/blob/main/README.md#structure)
+[WIREFRAMES](https://github.com/AngelArgirov/msp2/blob/main/README.md#wireframes)
+   1.[PHONE WIREFRAMES](https://github.com/AngelArgirov/msp2/blob/main/README.md#phonewireframes)
+[UX](https://github.com/AngelArgirov/msp2/blob/main/README.md#ux)
+[UX](https://github.com/AngelArgirov/msp2/blob/main/README.md#ux)
 
 
 
@@ -58,7 +64,7 @@ The users can send an emails for contact with the company throught the email for
 * https://codepen.io === FROM THIS WEBSITE I TOOK THE CODE FOR THE GLOWING BUTTONS
 * https://learn.codeinstitute.net === FROM THIS WEBSITE I TOOK THE KNOWLEDGE SO I CAN BUILD MY RESPONSIVE WEBSITE
 
-#STRUCTURE
+# STRUCTURE
 
 1. HOME PAGE
       * LOGO
