@@ -57,7 +57,7 @@ The users can send an emails for contact with the company throught the email for
 * https://codepen.io === FROM THIS WEBSITE I TOOK THE CODE FOR THE GLOWING BUTTONS
 * https://learn.codeinstitute.net === FROM THIS WEBSITE I TOOK THE KNOWLEDGE SO I CAN BUILD MY RESPONSIVE WEBSITE
 
-#STRUCTURE
+# STRUCTURE
 
 1. HOME PAGE
       * LOGO
