@@ -5,7 +5,7 @@
 
 ![](https://github.com/AngelArgirov/msp2/blob/main/assets/Screenshot%202021-08-23%20at%2014.57.31.png)
 
-## I have build a responsive website that will display WHO WE ARE, WHAT WE DO, images and links. This is SECOND project.
+## I have build a responsive website that will display WHO WE ARE, WHAT WE DO, images and links. This is my SECOND project.
 
 # [THE LIVE PROJECT](https://angelargirov.github.io/msp2/)
 
