@@ -9,9 +9,11 @@
 
 ## Files included
 
-1. ind.html
+1. index.html
 2. style.css
 3. js files
+   * map.js
+   * app.js
 
 
 
@@ -29,6 +31,10 @@ As a Returning user, I want to contact the organisation so I can request more in
 Frequent Visitor Goals
 
 As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
+The buttons on the home page, about page, contact page are not workimg except the "Let's Start" button !!!
+
+The users can send an emails for contact with the company throught the email form 
 
 
 # RESOURCES
@@ -121,6 +127,10 @@ Testing of form validation will also be required to ensure the correct inputs ar
 Validation of inclusion for all features included in the Structure of the Website / Wireframes must be performed.
 
 ![TESTING](https://github.com/AngelArgirov/msp2/blob/main/assets/testing/Screenshot%202021-08-23%20at%2014.07.44.png)
+![TESTING](https://github.com/AngelArgirov/msp2/blob/main/assets/testing/Screenshot%202021-08-24%20at%2014.27.32.png)
+![TESTING](https://github.com/AngelArgirov/msp2/blob/main/assets/testing/Screenshot%202021-08-24%20at%2014.28.25.png)
+![TESTING](https://github.com/AngelArgirov/msp2/blob/main/assets/testing/Screenshot%202021-08-24%20at%2014.29.44.png)
+![TESTING](https://github.com/AngelArgirov/msp2/blob/main/assets/testing/Screenshot%202021-08-24%20at%2014.45.22.png)
 
 
 
@@ -132,7 +142,7 @@ Validation of inclusion for all features included in the Structure of the Websit
  # TO DEPLOY THE WEBSITE THE FOLLOWING STEPS WERE TAKEN:
  
  1. LOG INTO GITHUB
- 2. FROM THE LIST OF REPOSITORIES ON THE SCREEN, SELECT AngelArgirov/AngelArgirov-Milestone-Project1
+ 2. FROM THE LIST OF REPOSITORIES ON THE SCREEN, SELECT AngelArgirov/msp2
  3. FROM THE MENU ITEMS NEAR THE PROJECT NAME, SELECT SETTINGS.
  4. SCROLL DOWN TO THE GITHUB PAGES SECTION.
  5. UNDER SOURCE CLICK THE DROP-DOWN MENU LABELLED NONE AND SELECT MASTER BRANCH
