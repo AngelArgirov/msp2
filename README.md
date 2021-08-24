@@ -15,7 +15,7 @@
    * map.js
    * app.js
 
-[UX](https://github.com/AngelArgirov/msp2/edit/main/README.md#ux)
+[UX](https://github.com/AngelArgirov/msp2/blob/main/README.md#ux)
 
 
 
