@@ -15,14 +15,14 @@
    * map.js
    * app.js
 
-# [UX](https://github.com/AngelArgirov/msp2/blob/main/README.md#ux)
-# [RESOURCES](https://github.com/AngelArgirov/msp2/blob/main/README.md#resources)
-# [STRUCTURE](https://github.com/AngelArgirov/msp2/blob/main/README.md#structure)
-# [WIREFRAMES](https://github.com/AngelArgirov/msp2/blob/main/README.md#wireframes)
-   # 1.[PHONE WIREFRAMES](https://github.com/AngelArgirov/msp2/blob/main/README.md#phone-wireframes)
-   # 2.[DESKTOP WIREFRAMES](https://github.com/AngelArgirov/msp2/blob/main/README.md#desktop-wireframes)
-# [PURPOSE](https://github.com/AngelArgirov/msp2/blob/main/README.md#purpose)
-# [TESTING](https://github.com/AngelArgirov/msp2/blob/main/README.md#testing)
+# 1 [UX](https://github.com/AngelArgirov/msp2/blob/main/README.md#ux)
+# 2 [RESOURCES](https://github.com/AngelArgirov/msp2/blob/main/README.md#resources)
+# 3 [STRUCTURE](https://github.com/AngelArgirov/msp2/blob/main/README.md#structure)
+# 4 [WIREFRAMES](https://github.com/AngelArgirov/msp2/blob/main/README.md#wireframes)
+   # * [PHONE WIREFRAMES](https://github.com/AngelArgirov/msp2/blob/main/README.md#phone-wireframes)
+   # * [DESKTOP WIREFRAMES](https://github.com/AngelArgirov/msp2/blob/main/README.md#desktop-wireframes)
+# 5 [PURPOSE](https://github.com/AngelArgirov/msp2/blob/main/README.md#purpose)
+# 6 [TESTING](https://github.com/AngelArgirov/msp2/blob/main/README.md#testing)
 
 
 
