@@ -7,6 +7,8 @@
 
 ## I have build a responsive website that will display WHO WE ARE, WHAT WE DO, images and links. This is SECOND project.
 
+# [THE LIVE PROJECT](https://angelargirov.github.io/msp2/)
+
 ## Files included
 
 1. index.html
