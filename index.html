@@ -25,13 +25,13 @@
           "from_email": contactForm.email.value,
           "from_name": contactForm.firstname.value
         }, this)
-          .then(function () {
-          
-            console.log('SUCCESS!');
-          }, function (error) {
-         
-            console.log('FAILED...', error);
-          });
+          .then(
+            function confirm_submit() {
+              return confirm("Are you sure you want to send this message?",)
+                .then(function () {
+                  reset();
+                  console.log("debug");
+                });
       });
     }
   </script>
