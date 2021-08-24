@@ -23,19 +23,28 @@
 1. As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation.
 2. As a First Time user, I want to be able to easily navigate throughout the site to find content.
 3. As a First Time user, I want to view the website and content clearly on my mobile device.
+4. As a First Time user, who want to a professional designers to make a project for them first i want to. see their design in the website
 
 Returning Visitor Goals
 
-As a Returning user, I want to contact the organisation so I can request more information.
+As a Returning user, I want to contact the organisation so I can request more information throught email form.
 
 Frequent Visitor Goals
-
-As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 The buttons on the home page, about page, contact page are not workimg except the "Let's Start" button !!!
 
 The users can send an emails for contact with the company throught the email form 
 
+
+1. On the HOME page is the logo the menu bar and the "WELCOME TO US" button "it is not working"
+   *the menu is highlighted for accessabilty also the button is with glowing RGB function for design and accessabilty
+   
+2. On the About page is the image so the user can understand how we are working on our project in this case with coding on the right side of the image is the text ofcourse not a big text to be comfortable for the eye so the customer not lost himself in the big text.
+   * Also the button is with glowing RGB function for design and accessabilty
+   
+3.On the Contact page is the image so the user can understand how we are working on our project in this case with coding on the left side of the image is the text ofcourse not a big text to be comfortable for the eye so the customer not lost himself in the big text. Above is the GOOGLE MAP and the EMAIL FORM so the customers can contact the company easy without pressure.
+   * Also the buttons are with glowing RGB function for design and accessabilty
+ 
 
 # RESOURCES
 
